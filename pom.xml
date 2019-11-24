@@ -60,15 +60,10 @@
     </plugins>
   </build>
 <distributionManagement>
-      <snapshotRepository>
-      <id>deployment</id>
-      <name>Deployment Snapshots</name>
-      <url>http://localhost:8081/repository/simplesnapshot/</url>
-      </snapshotRepository>
-    <releaseRepository>
+      <repository>
       <id>deployment</id>
       <name>Deployment Release</name>
       <url>http://127.0.0.1:8081/repository/simplerelease/</url>
-      </releaseRepository>
+      </repository>
     </distributionManagement>
 </project>
