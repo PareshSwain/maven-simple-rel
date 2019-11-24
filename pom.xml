@@ -65,10 +65,10 @@
       <name>Deployment Snapshots</name>
       <url>http://localhost:8081/repository/simplesnapshot/</url>
       </snapshotRepository>
-    <Repository>
+    <releaseRepository>
       <id>deployment</id>
-      <name>Deployment Snapshots</name>
+      <name>Deployment Release</name>
       <url>http://127.0.0.1:8081/repository/simplerelease/</url>
-      </Repository>
+      </releaseRepository>
     </distributionManagement>
 </project>
